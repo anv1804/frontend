@@ -4,8 +4,10 @@ module.exports = {
     extend: {
       gridTemplateColumns: {
         "message-layout": "350px 1fr 300px",
+        "cline-layout": "250px 1fr 250px",
+
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"),require('tailwind-scrollbar-hide'),],
 };

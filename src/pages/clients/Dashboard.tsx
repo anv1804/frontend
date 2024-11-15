@@ -6,8 +6,8 @@ import Schedule from '../../components/Schedule';
 const Dashboard = () => {
     return (
         <div className='w-full main-content'>
-            <div className="container bg-white">
-                <div className="flex items-center justify-between p-4 border-b-[1px]">
+            <div className="container bg-white overflow-auto" >
+                <div className="flex items-center justify-between p-4 border-b-[1px] sticky ">
                     <div className="flex items-center w-full border rounded-lg ">
                         <Input
                             placeholder="Search"
@@ -27,6 +27,12 @@ const Dashboard = () => {
                 </div>
                 <div className="calendar">
                     <Schedule />
+                    <Schedule />
+
+                    <Schedule />
+
+                    <Schedule />
+
                 </div>
             </div>
         </div>

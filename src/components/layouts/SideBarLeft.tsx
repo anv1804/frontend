@@ -1,20 +1,11 @@
-import React from 'react';
+
 import { Layout, Menu, Badge, Avatar, Button } from 'antd';
 import {
-  DashboardOutlined,
-  CalendarOutlined,
-  MessageOutlined,
-  BookOutlined,
-  CheckCircleOutlined,
-  StarOutlined,
-  UserOutlined,
   UploadOutlined,
   LogoutOutlined,
 } from '@ant-design/icons';
 import 'tailwindcss/tailwind.css';
-import IconFlash from '../icons/IconFlash';
 import IconClock from '../icons/IconClock';
-import IconChat from '../icons/IconChat';
 import IconCalendarFlat from '../icons/IconCalendarFlat';
 import IconBagFlat from '../icons/IconBagFlat';
 import IconChatFlat from '../icons/IconChatFlat';
@@ -28,7 +19,7 @@ const { Sider } = Layout;
 
 const SideBarLeft = () => {
   return (
-    <Sider width={250} className="h-screen bg-white border-r-[1px]">
+    <Sider width={250} className="h-screen w-full bg-white border-r-[1px] float-left ">
       <div className="flex flex-col items-center py-4">
         {/* Logo */}
         <div className="text-blue-500  text-2xl font-semibold mb-4">Teach.</div>
